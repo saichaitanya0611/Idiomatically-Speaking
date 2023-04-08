@@ -12,20 +12,23 @@ To run the code, you just need to perform the following steps:
     ```
 
 3. To train or test the system, There are steps modify train.py file and test.py file
+<br>
     -> To train and test models in multiple languages, modify test.py and train.py as follows
+    <br>
     TO Train
-    -> In Train.py, in Line 51 "language = "English"", Change the language to either English, Spanish, German or Italian and run the file to create a language model for that particular language.
-    -> It is stored in the same directory as the train.py file. The models will be saves as english.pt, spanish.pt, german.pt or italian.pt
-    -> These models can be used to predict
-
-    To Test
-    -> To make predictions on test set using the model that is already saved, modify test.py file
-    -> In test.py, Modify lines 66,67,68 "language = "English"
-                                          checkpoint = "english.pt"
-                                          dataset_type = "all"". Change the language to either English, Spanish, German or Italian
-                                                                 Checkpoint to english.pt, spanish.pt, german.pt or italian.pt
-                                                                 dataset_type to either all, seen, unseen.
-    -> Run the test.py file and It will show you the precision, recall and F1-scores of the model on the test-set
+    <br>
+    -> In Train.py, in Line 51 "language = "English"", Change the language to either English, Spanish, German or Italian and run the file to create a language model for that particular language.<br>
+    -> It is stored in the same directory as the train.py file. The models will be saves as english.pt, spanish.pt, german.pt or italian.pt<br>
+    -> These models can be used to predict<br>
+<br>
+    To Test<br>
+    -> To make predictions on test set using the model that is already saved, modify test.py file<br>
+    -> In test.py, Modify lines 66,67,68 "language = "English"<br>
+                                          checkpoint = "english.pt"<br>
+                                          dataset_type = "all"". Change the language to either English, Spanish, German or Italian<br>
+                                                                 Checkpoint to english.pt, spanish.pt, german.pt or italian.pt<br>
+                                                                 dataset_type to either all, seen, unseen.<br>
+    -> Run the test.py file and It will show you the precision, recall and F1-scores of the model on the test-set<br>
 
     
 
