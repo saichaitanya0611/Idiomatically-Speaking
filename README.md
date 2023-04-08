@@ -31,5 +31,8 @@ To run the code, you just need to perform the following steps:
     -> Run the test.py file and It will show you the precision, recall and F1-scores of the model on the test-set<br>
 
     
+# You can run final Project.ipynb after making the changes in test.py and train.py.
+# By default it will train English Model and makes prediction on all Test-set
 
+# Hyper parameters can be tuned in train.py file.(lr, random seed, batchsize, epochs, patience)
 <br>
